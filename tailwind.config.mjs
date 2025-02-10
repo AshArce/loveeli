@@ -8,8 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        customPinkButton: '#f7c8d6',
       },
     },
   },
