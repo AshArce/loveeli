@@ -20,7 +20,7 @@ export default function Page() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-evenly">
+    <main className="flex min-h-screen flex-col items-center justify-between p-5">
       {/* Display the Chapter */}
       <Chapter chapter={currentChapter} />
 
