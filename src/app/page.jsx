@@ -14,7 +14,7 @@ export default function Home() {
         className="flex flex-col items-center justify-center "
       >
         <h1 className="text-3xl font-bold">The Lorem Ipsum:</h1>
-        <p className="text-xl font-bold">Lorem ipsum dolor sit amet.</p>
+        <p className="text-xl ">Lorem ipsum dolor sit amet.</p>
 
 
       <Link href="/pages">
