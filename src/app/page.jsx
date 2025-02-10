@@ -17,7 +17,7 @@ export default function Home() {
         <p className="text-xl font-bold">Lorem ipsum dolor sit amet.</p>
 
 
-      <Link href="/chapter1">
+      <Link href="/pages">
         <button className="bg-customPinkButton px-10 py-2 m-2 rounded-xl">
           Get Started
         </button>
