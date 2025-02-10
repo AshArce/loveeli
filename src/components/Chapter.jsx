@@ -1,5 +1,6 @@
 import { chapterContents } from "./content";
 import { chapter1Section } from "./content";
+import { chapter2Section } from "./content";
   
   export default function Chapter({ chapter }) {
     const content = chapterContents[chapter] || { title: "Not Found", text: "Chapter does not exist." };
@@ -24,11 +25,10 @@ import { chapter1Section } from "./content";
 )}
 
         {/*CHAPTER 2 */}
-        {chapter === "chapter1" && (
-  <div className="p-4 max-w-xl mx-auto">
-    {chapter1Section().map((section, index) => (
-      <div key={index} className="mb-4">
-        <h3 className="font-semibold text-justify">{section.title}</h3>
+        {chapter === "chapter2" && (
+  <div className="p-3 max-w-xl mx-auto">
+    {chapter2Section().map((section, index) => (
+      <div key={index} className="">
         <ul className="list-disc pl-6">
           <li className="whitespace-pre-line text-justify">{section.content}</li>
         </ul>

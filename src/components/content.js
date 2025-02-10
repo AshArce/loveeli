@@ -20,8 +20,44 @@ export const chapter1Section = () => [
         title: "lorem ipsum:",
         content: `Ad nisi nulla enim elit commodo velit aliquip enim duis. Dolor incididunt ad officia incididunt consectetur dolor occaecat anim ut sint in. Ad adipisicing ut ea magna adipisicing incididunt id pariatur minim. Reprehenderit ipsum occaecat reprehenderit officia adipisicing.`,
       },
-    ]
-    ;
+    ];
 
 // chapter 2
-
+export const chapter2Section = () => [
+    {
+      content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+    },
+    {
+        content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+      },
+      {
+        content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+      },
+      {
+        content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+      },
+      {
+        content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+      },
+      {
+        content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+      },
+      {
+        content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+      },
+      {
+        content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+      },
+      {
+        content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+      },
+      {
+        content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+      },
+      {
+        content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+      },
+      {
+        content: `Laborum nulla non minim do adipisicing Lorem aute consectetur cupidatat occaecat.`
+      },
+  ];
