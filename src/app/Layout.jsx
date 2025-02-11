@@ -3,9 +3,11 @@ import "./globals.css";
 import React from "react";
 
 const playfair = Playfair_Display({
-  variable: "--font-playfair",
   subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-playfair",
 });
+
 
 export const metadata = {
   title: "The Eli Effect",
@@ -15,6 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={`${playfair.variable} antialiased`}>
         {children}
       </body>
