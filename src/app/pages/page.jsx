@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Chapter from "@/components/Chapter";
-import Navigation from "@/components/Navigation";
+import Navigation from "../../components/Navigation"; // Relative import
 import Title from "@/components/Title";
 
 export default function Page() {
