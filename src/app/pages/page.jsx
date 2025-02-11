@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Chapter from "@/components/Chapter";
 import Navigation from "@/components/Navigation";
+import Title from "@/components/Title";
 
 export default function Page() {
   const [currentChapter, setCurrentChapter] = useState("chapter1"); // Initialize with chapter1
@@ -21,7 +22,9 @@ export default function Page() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-5">
-      {/* Display the Chapter */}
+      {/* Title Component */}
+      <Title chapter={currentChapter}/>
+      {/* Chapter Component */}
       <Chapter chapter={currentChapter} />
 
       {/* Navigation Component */}
