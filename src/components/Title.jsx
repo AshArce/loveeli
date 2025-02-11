@@ -6,8 +6,8 @@ export default function Title({ chapter }) {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold">{content.title}</h1>
-      <p className="text-xl mt-2">{content.text}</p>
+      <h1 className="text-3xl font-bold text-center">{content.title}</h1>
+      <p className="text-xl">{content.text}</p>
     </div>
   );
 }

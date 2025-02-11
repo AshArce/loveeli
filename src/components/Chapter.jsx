@@ -1,6 +1,7 @@
 import React from "react";
 import { chapter1Section } from "./content";
 import { chapter2Section } from "./content";
+import { chapter5Section } from "./content";
 import Gallery from "./Gallery";
   
   export default function Chapter({ chapter }) {
@@ -45,19 +46,19 @@ import Gallery from "./Gallery";
 
         {chapter === "chapter4" && (
           <div className="">
-            {/* CHAPTER 3 COMPONENT */}
+            {/* CHAPTER 4 COMPONENT */}
           </div>
         )}
 
                                     {/* CHAPTER 5 */}
 
         {chapter === "chapter5" && (
-          <div className="">
-            <h1></h1>
-            {/* CHAPTER 3 COMPONENT */}
-            {chapter6Section}
+          <div className="p-4 max-w-xl mx-auto">
+            
+            <p className="whitespace-pre-line text-justify">{chapter5Section.content}</p>
           </div>
-        )}
+)}
+
 
 
 
