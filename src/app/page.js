@@ -1,6 +1,5 @@
 "use client"; // Add this line
 
-import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion"; // Ensure this import is correct
 
